@@ -1,1 +1,1 @@
-Git Tutorial - another branch
+Tutorial for just another branch
