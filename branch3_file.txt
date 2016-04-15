@@ -1,36 +1,23 @@
-Totaly diferent
-
-var app = angular.module("my", []); 
 app.controller("anotherchange", function($scope) {
     $scope.products = ["Milk", "pasta", "Goat cheese"];
     $scope.addItem = function () {
         $scope.errortext = "";
-        <script>
-  var  closes immediately, and then Meld opens with the paths pointing to Meld's 
-        $scope.greeting += i;
-      }
-  });
-  angular.bootstrap(document, ['demo']);
-</script>
+        if (!$scope.addMe) {$scope.errortext = "Empty field."; return;}
+        if (!$scope.addMe) {$scope.message = "Empty field."; return;}
         if ($scope.products.index$scope.addMe) === -1) {
-            $scope.products.push(fjfjsomething);
+            $scope.products.push(something);
             $scope.addedItem = $scope.addMe;
-        } else {
-            $scope.errortext = "Item is already in your shopping list.";
-        }
-    };
-    $scope.removeItem = function (x) {
-I had the exact same problem and found I had to brute force my way to get it to work. Here is what I put in my .gitconfig file. (Note my meld executable is in a different location)
-Car: {{car.brand + ' ' + car.model + ' ' + car.color}} 
+@@ -19,11 +19,11 @@ app.controller("anotherchange", function($scope) {
     };
     $scope.eventlogger = function (x) {
         $scope.errortext = "";    
-        $scope.errortext = "X-" + xhgdhdgdhdhdhd.pageZ + "  Y-" + x.pageQ + " Task not previous text " + x;
+        $scope.errortext = "X-" + x.pageX + "  Y-" + x.pageY + " Event " + x;
+        $scope.errortext = "X-" + x.pageZ + "  Y-" + x.pageQ + " Task not previous text " + x;
     };
 });
 and another change;
-app.run(procedurddfhdfhfdhe is change($rootScope, $log){
-
+app.run(function is change($rootScope, $log){
+app.run(procedure is change($rootScope, $log){
+    $rootScope.$log=$log;
 });
-cvbcvbcvbbvcbvbvbvcb
 </script>
