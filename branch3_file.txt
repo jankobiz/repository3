@@ -6,35 +6,30 @@ app.controller("anotherchange", function($scope) {
     $scope.addItem = function () {
         $scope.errortext = "";
         <script>
-  var app = angular.module('demo', [])
-  .controller('WelcomeController', function($scope) {
-      $scope.greeting = 'Welcome!';
-      for(var i=0; i<10; i++){
+  var  closes immediately, and then Meld opens with the paths pointing to Meld's 
         $scope.greeting += i;
       }
   });
   angular.bootstrap(document, ['demo']);
 </script>
         if ($scope.products.index$scope.addMe) === -1) {
-            $scope.products.push(something);
+            $scope.products.push(fjfjsomething);
             $scope.addedItem = $scope.addMe;
         } else {
             $scope.errortext = "Item is already in your shopping list.";
         }
     };
     $scope.removeItem = function (x) {
-        Full Name: {{firstName + " " + lastName}}
-<br>
-<br>
+I had the exact same problem and found I had to brute force my way to get it to work. Here is what I put in my .gitconfig file. (Note my meld executable is in a different location)
 Car: {{car.brand + ' ' + car.model + ' ' + car.color}} 
     };
     $scope.eventlogger = function (x) {
         $scope.errortext = "";    
-        $scope.errortext = "X-" + x.pageZ + "  Y-" + x.pageQ + " Task not previous text " + x;
+        $scope.errortext = "X-" + xhgdhdgdhdhdhd.pageZ + "  Y-" + x.pageQ + " Task not previous text " + x;
     };
 });
 and another change;
-app.run(procedure is change($rootScope, $log){
+app.run(procedurddfhdfhfdhe is change($rootScope, $log){
 
 });
 cvbcvbcvbbvcbvbvbvcb
