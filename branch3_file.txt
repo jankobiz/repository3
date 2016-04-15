@@ -1,7 +1,28 @@
-This is just to cause conflict
+Totaly diferent
 
-another line
-
-Tutorial for just another branch
-
-third line
+var app = angular.module("myShoppingList", []); 
+app.controller("myCtrl", function($scope) {
+    $scope.products = ["Milk", "Bread", "Cheese"];
+    $scope.addItem = function () {
+        $scope.errortext = "";
+        if (!$scope.addMe) {$scope.errortext = "Empty field."; return;}
+        if ($scope.products.indexOf($scope.addMe) === -1) {
+            $scope.products.push($scope.addMe);
+            $scope.addedItem = $scope.addMe;
+        } else {
+            $scope.errortext = "The item is already in your shopping list.";
+        }
+    };
+    $scope.removeItem = function (x) {
+        $scope.errortext = "";    
+        $scope.products.splice(x, 1);
+    };
+    $scope.eventlogger = function (x) {
+        $scope.errortext = "";    
+        $scope.errortext = "X-" + x.pageX + "  Y-" + x.pageY + " Event " + x;
+    };
+});
+app.run(function($rootScope, $log){
+    $rootScope.$log=$log;
+});
+</script>
