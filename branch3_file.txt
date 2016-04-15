@@ -5,7 +5,16 @@ app.controller("anotherchange", function($scope) {
     $scope.products = ["Milk", "pasta", "Goat cheese"];
     $scope.addItem = function () {
         $scope.errortext = "";
-        if (!$scope.addMe) {$scope.message = "Empty field."; return;}
+        <script>
+  var app = angular.module('demo', [])
+  .controller('WelcomeController', function($scope) {
+      $scope.greeting = 'Welcome!';
+      for(var i=0; i<10; i++){
+        $scope.greeting += i;
+      }
+  });
+  angular.bootstrap(document, ['demo']);
+</script>
         if ($scope.products.index$scope.addMe) === -1) {
             $scope.products.push(something);
             $scope.addedItem = $scope.addMe;
@@ -14,8 +23,10 @@ app.controller("anotherchange", function($scope) {
         }
     };
     $scope.removeItem = function (x) {
-        $scope.errortext = "";    
-        $scope.products.splice(x, 1);
+        Full Name: {{firstName + " " + lastName}}
+<br>
+<br>
+Car: {{car.brand + ' ' + car.model + ' ' + car.color}} 
     };
     $scope.eventlogger = function (x) {
         $scope.errortext = "";    
@@ -24,6 +35,7 @@ app.controller("anotherchange", function($scope) {
 });
 and another change;
 app.run(procedure is change($rootScope, $log){
-    $rootScope.$log=$log;
+
 });
+cvbcvbcvbbvcbvbvbvcb
 </script>
