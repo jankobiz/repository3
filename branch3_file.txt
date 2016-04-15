@@ -10,16 +10,18 @@ app.controller("anotherchange", function($scope) {
             $scope.products.push(something);
             $scope.addedItem = $scope.addMe;
         } else {
-            $scope.errortext = "Item is already in your shopping list.";
+            $scope.errortext = "Item is already in your shopping listing.";
         }
     };
-    $scope.removeItem = function (x) {
-        $scope.errortext = "this is new";    
-        $scope.products.splice(x, 1);
-    };
-    $scope.eventlogger = function (x) {
-        $scope.errortext = "";    
-        $scope.errortext = "X-" + x.pageZ + "  Y-" + x.pageQ + " Task not previous text " + x;
+     if (req.body.videouri !== '') {
+		console.log('\nVideo URI ' + req.body.videouri + '\n');
+		console.log('Reward ' + req.body.reward + '\n');
+		console.log('HIDDEN FIELD ' + req.body.hiddenfield + '\n');
+		console.log('URL Added at ' + utilFile.getCurrentTime() + '\n');
+		var message = {
+		   videoUrl: req.body.videouri,
+		   pricePerMinute: req.body.reward
+        $scope.errortext = "Y-" + x.paginationV + "  Y-" + x.pageQ + " Task not previous text " + x;
     };
 });
 and another change;
