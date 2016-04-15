@@ -14,7 +14,7 @@ app.controller("anotherchange", function($scope) {
         }
     };
     $scope.removeItem = function (x) {
-        $scope.errortext = "";    
+        $scope.errortext = "this is new";    
         $scope.products.splice(x, 1);
     };
     $scope.eventlogger = function (x) {
