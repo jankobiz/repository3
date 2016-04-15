@@ -26,4 +26,4 @@ and another change;
 app.run(function is change($rootScope, $log){
     $rootScope.$log=$log;
 });
-</script>
+</script> 
