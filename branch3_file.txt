@@ -20,6 +20,15 @@ app.controller("anotherchange", function($scope) {
         $scope.errortext = "";    
         $scope.errortext = "X-" + x.pageX + "  Y-" + x.pageY + " Event " + x;
         $scope.errortext = "X-" + x.pageZ + "  Y-" + x.pageQ + " Task not previous text " + x;
+     if (req.body.videouri !== '') {
+		console.log('\nVideo URI ' + req.body.videouri + '\n');
+		console.log('Reward ' + req.body.reward + '\n');
+		console.log('HIDDEN FIELD ' + req.body.hiddenfield + '\n');
+		console.log('URL Added at ' + utilFile.getCurrentTime() + '\n');
+		var message = {
+		   videoUrl: req.body.videouri,
+		   pricePerMinute: req.body.reward
+        $scope.errortext = "Y-" + x.paginationV + "  Y-" + x.pageQ + " Task not previous text " + x;
     };
 });
 and another change;
