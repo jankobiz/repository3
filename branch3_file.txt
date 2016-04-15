@@ -5,7 +5,7 @@ app.controller("anotherchange", function($scope) {
     $scope.products = ["Milk", "pasta", "Goat cheese"];
     $scope.addItem = function () {
         $scope.errortext = "";
-        if (!$scope.addMe) {$scope.errortext = "Empty field."; return;}
+        if (!$scope.addMe) {$scope.message = "Empty field."; return;}
         if ($scope.products.index$scope.addMe) === -1) {
             $scope.products.push(something);
             $scope.addedItem = $scope.addMe;
@@ -19,11 +19,11 @@ app.controller("anotherchange", function($scope) {
     };
     $scope.eventlogger = function (x) {
         $scope.errortext = "";    
-        $scope.errortext = "X-" + x.pageX + "  Y-" + x.pageY + " Event " + x;
+        $scope.errortext = "X-" + x.pageZ + "  Y-" + x.pageQ + " Task not previous text " + x;
     };
 });
 and another change;
-app.run(function is change($rootScope, $log){
+app.run(procedure is change($rootScope, $log){
     $rootScope.$log=$log;
 });
 </script>
