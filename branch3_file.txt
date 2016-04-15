@@ -36,5 +36,4 @@ app.run(function is change($rootScope, $log){
 app.run(procedure is change($rootScope, $log){
     $rootScope.$log=$log;
 });
-</script>
 </end>
