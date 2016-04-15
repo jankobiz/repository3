@@ -1,1 +1,7 @@
+This is just to cause conflict
+
+another line
+
 Tutorial for just another branch
+
+third line
