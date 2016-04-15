@@ -7,7 +7,14 @@ app.controller("anotherchange", function($scope) {
         if ($scope.products.index$scope.addMe) === -1) {
             $scope.products.push(something);
             $scope.addedItem = $scope.addMe;
-@@ -19,11 +19,11 @@ app.controller("anotherchange", function($scope) {
+        } else {
+            $scope.errortext = "Item is already in your shopping list.";
+            $scope.errortext = "Item is already in your shopping listing.";
+        }
+    };
+    $scope.removeItem = function (x) {
+        $scope.errortext = "this is new";    
+        $scope.products.splice(x, 1);
     };
     $scope.eventlogger = function (x) {
         $scope.errortext = "";    
